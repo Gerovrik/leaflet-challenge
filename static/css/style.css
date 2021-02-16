@@ -1,0 +1,31 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#mapid,
+body,
+html {
+  height: 100%;
+}
+/*Added background and padding to legend for visibility */
+.legend {
+  color: rgb(66, 64, 64);
+  line-height: 25px;
+  padding: 8px 8px;
+  background: white;
+  border-radius: 6px;
+}
+.legend i {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10px;
+  opacity: 1;
+}
+/*Added style to the Legend Title */
+.legend h4 {
+  text-align: center;
+  font-size: 16px;
+  margin: 2px 12px 8px;
+  color: #777;
+}
